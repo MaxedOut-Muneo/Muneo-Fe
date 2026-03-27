@@ -90,7 +90,7 @@ jobs:
       - name: Type check
         id: type-check
         continue-on-error: true
-        run: yarn turbo tsc --noEmit --filter=${{ matrix.app }}
+        run: yarn turbo type-check --filter=${{ matrix.app }}
 
       - name: Lint check
         id: lint
