@@ -161,9 +161,13 @@ jobs:
               comment += `| **${name}** | ${icon(webResult)} ${label(webResult)} | ${icon(adminResult)} ${label(adminResult)} |\n`;
             }
 
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment,
-            });
+            try {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: comment,
+              });
+            } catch (error) {
+              console.log('Failed to comment (fork PR may have read-only token):', error.message);
+            }
