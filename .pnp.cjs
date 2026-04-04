@@ -1911,6 +1911,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:9845906954fdbefbb879db24fa8772d77a945dca59f459806df47a5b67245d4bc6502880b373cca7201062c81bea9f13f699f52de2004c037e79dbdbd5d97fb3#npm:19.2.3"],\
           ["@vanilla-extract/css", "npm:1.20.1"],\
           ["@vanilla-extract/recipes", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:0.5.7"],\
+          ["@vanilla-extract/sprinkles", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:1.6.5"],\
           ["@vanilla-extract/vite-plugin", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:4.0.20"],\
           ["eslint", "virtual:65bafdd842b8abc611e650935334f0c70360ee7e50bedb961987dd9ca9dcff51dafa6a933d8203d01ec1c0eeff8a9f96330135bdbd2b7f4a52c1d0753f17bc97#npm:9.39.4"],\
           ["prettier", "npm:3.8.1"],\
@@ -1944,6 +1945,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:9845906954fdbefbb879db24fa8772d77a945dca59f459806df47a5b67245d4bc6502880b373cca7201062c81bea9f13f699f52de2004c037e79dbdbd5d97fb3#npm:19.2.3"],\
           ["@vanilla-extract/css", "npm:1.20.1"],\
           ["@vanilla-extract/recipes", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:0.5.7"],\
+          ["@vanilla-extract/sprinkles", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:1.6.5"],\
           ["@vanilla-extract/vite-plugin", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:4.0.20"],\
           ["eslint", "virtual:65bafdd842b8abc611e650935334f0c70360ee7e50bedb961987dd9ca9dcff51dafa6a933d8203d01ec1c0eeff8a9f96330135bdbd2b7f4a52c1d0753f17bc97#npm:9.39.4"],\
           ["prettier", "npm:3.8.1"],\
@@ -4977,6 +4979,28 @@ const RAW_RUNTIME_STATE =
           ["@types/vanilla-extract__css", null],\
           ["@vanilla-extract/css", "npm:1.20.1"],\
           ["@vanilla-extract/recipes", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:0.5.7"]\
+        ],\
+        "packagePeers": [\
+          "@types/vanilla-extract__css",\
+          "@vanilla-extract/css"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vanilla-extract/sprinkles", [\
+      ["npm:1.6.5", {\
+        "packageLocation": "../../C:/Users/rudwn/AppData/Local/Yarn/Berry/cache/@vanilla-extract-sprinkles-npm-1.6.5-44daad69e0-10c0.zip/node_modules/@vanilla-extract/sprinkles/",\
+        "packageDependencies": [\
+          ["@vanilla-extract/sprinkles", "npm:1.6.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:1.6.5", {\
+        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-sprinkles-virtual-d344510a5b/3/C:/Users/rudwn/AppData/Local/Yarn/Berry/cache/@vanilla-extract-sprinkles-npm-1.6.5-44daad69e0-10c0.zip/node_modules/@vanilla-extract/sprinkles/",\
+        "packageDependencies": [\
+          ["@types/vanilla-extract__css", null],\
+          ["@vanilla-extract/css", "npm:1.20.1"],\
+          ["@vanilla-extract/sprinkles", "virtual:5d96e0b7d8c846ca4c96dcbecbc4960fdd59bfc9ff8bd0f2c0918e8c01b4050e30b2641505d9a415600e99d73abcb0b8a2dce2799a71cf416a00c15214a0bece#npm:1.6.5"]\
         ],\
         "packagePeers": [\
           "@types/vanilla-extract__css",\

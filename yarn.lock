@@ -1525,6 +1525,7 @@ __metadata:
     "@types/react-dom": "npm:^19.2.3"
     "@vanilla-extract/css": "npm:^1.17.1"
     "@vanilla-extract/recipes": "npm:^0.5.5"
+    "@vanilla-extract/sprinkles": "npm:^1.6.3"
     "@vanilla-extract/vite-plugin": "npm:^4.0.20"
     eslint: "npm:^9.39.4"
     prettier: "npm:^3.8.1"
@@ -3586,6 +3587,15 @@ __metadata:
   peerDependencies:
     "@vanilla-extract/css": ^1.0.0
   checksum: 10c0/18e7a7a12dedd16e43a1974c8ee273bee9080bd70042e91ce244e4be5679c4f626a257d37186bbd3562157d48fec26650a50f7a396439862da527e2223687ac8
+  languageName: node
+  linkType: hard
+
+"@vanilla-extract/sprinkles@npm:^1.6.3":
+  version: 1.6.5
+  resolution: "@vanilla-extract/sprinkles@npm:1.6.5"
+  peerDependencies:
+    "@vanilla-extract/css": ^1.0.0
+  checksum: 10c0/d266fe1ab40dbf4136df4dab508b1d3e7d64cf2cd88c0f370b9de12f20027431fdd58c4a12b603c5ace72e50d416ee743944af98321c538218eadf9fceaf8023
   languageName: node
   linkType: hard
 
